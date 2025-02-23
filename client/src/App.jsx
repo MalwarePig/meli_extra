@@ -4,8 +4,7 @@ import Auth from "./pages/Auth";
 export default function App() {
   return (
     <>
-      <div>App</div>
-      <Auth />
+      <Auth/>
     </>
   );
 }

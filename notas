@@ -1,0 +1,55 @@
+
+React trabaja con el virtual doom, que es una versión de doom que se ejecuta en un entorno virtualizado. ayuda a ctualizar solo el componente 
+de doom, sin afectar el resto de la aplicación.
+
+==== Iniciar una plaicacion con create react app ====
+npx create-react-app NameProject //solo se permiten letras minus
+npm install web-vitals  //Para corregir el error inicial
+
+==== Iniciar servicio de aplicacion ====
+npm start
+
+==== Nombre de componentes ====
+Siempre inicia con mayusculas
+
+
+npm install mongoose //Permite escribir consultas para una base de datos de MongooDB en nodeJS
+npm install dotenv --save //
+npm i @apollo/server  //crea un servidor graphql
+
+npm i bcryptjs //encriptar contraseñas
+npm i nodemon --dev //para que el servidor se reinicie automaticamente
+npm i jsonwebtoken //para generar token de acceso
+
+
+
+//******** para cambio de version de react ********//
+npm install react@18 react-dom@18
+
+
+//******** FRONT ********//
+npm i semantic-ui-react semantic-ui-css //semantic-ui-react requiere react@^16.8.0 || ^17.0.0 || ^18.0.0, es decir, versiones de React dentro de esos rangos.
+
+npm install -g sass //para trabajar con sass
+
+npm i @apollo/client //para trabajar con graphql en el cliente
+npm i graphql //para trabajar con graphql en el cliente
+
+npm i formik //para trabajar con estructuras de formularios
+npm i yup //para trabajar con validaciones de formularios
+
+npm i react-toastify //para trabajar con notificaciones en la aplicacion
+
+npm i jwt-decode //para trabajar con token de acceso y obtener los datos
+
+npm i react-router-dom //para trabajar con rutas en la aplicacion
+
+npm i lodash //para trabajar con funciones de utilidad como map, filter, reduce, etc.
+
+npm i react-dropzone //para trabajar con archivos en la aplicacion
+
+npm install graphql-upload //para trabajar con archivos en la aplicacion
+
+npm i aws-sdk //para trabajar con servicios de AWS
+
+npm i apollo-upload-client //para subir imagenesnpm i semantic-ui-react semantic-ui-css
