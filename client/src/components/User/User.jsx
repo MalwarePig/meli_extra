@@ -8,9 +8,9 @@ import {
   Checkbox,
   Button,
 } from "semantic-ui-react";
-import "./RegisterForm.scss";
+ import './User.scss'
 
-export default function RegisterForm() {
+export default function User() {
   return (
     <>
       <h5>Fila Virtual praa confirmación de llegada a SVC</h5>
