@@ -1,0 +1,31 @@
+@import "../../../scss/index.scss";
+
+$giant-button-bg: #ffe605; // Color de fondo
+$giant-button-text: #000000; // Color del texto
+$giant-button-size: 1.2rem; // Tamaño del texto
+$giant-button-padding: 1rem 3rem; // Padding del botón
+$giant-button-border-radius: 1rem; // Bordes redondeados
+$giant-button-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Sombra
+
+.giant-button {
+    background-color: $giant-button-bg;
+    color: $giant-button-text;
+    font-size: $giant-button-size;
+    padding: $giant-button-padding;
+    border: none;
+    border-radius: $giant-button-border-radius;
+    box-shadow: $giant-button-box-shadow;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  
+    // Efecto al pasar el mouse
+    &:hover {
+      background-color: darken($giant-button-bg, 10%); // Oscurece el color de fondo
+      transform: scale(1.05); // Aumenta ligeramente el tamaño
+    }
+  
+    // Efecto al hacer clic
+    &:active {
+      transform: scale(0.95); // Reduce ligeramente el tamaño
+    }
+  }

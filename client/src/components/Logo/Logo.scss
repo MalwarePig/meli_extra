@@ -1,0 +1,18 @@
+@import "../../index.scss";
+
+.container-logo {
+    width: 70%; // Ocupa el 100% del ancho disponible
+    max-width: 300px; // Limita el ancho máximo en pantallas grandes 
+    text-align: center; // Centra el contenido horizontalmente 
+    
+    img {  
+        width: 100%;
+        height: auto; // La altura se ajusta automáticamente
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0.5, 0.5); // Sombra
+        display: block; // Asegura que la imagen se comporte como un bloque
+        margin-left: auto; // Centra horizontalmente
+        margin-right: auto; // Centra horizontalmente
+        margin-bottom: 10px;
+    }
+}

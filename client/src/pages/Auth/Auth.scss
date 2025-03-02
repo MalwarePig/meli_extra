@@ -1,44 +1,49 @@
 @import "../../index.scss";
 
-.auth{
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* height: 100vh; */
-    background-color: $background-grey-light;
+.auth {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $background-grey-light;
 
-    img{
-        margin-top: 25px;
-        width: 25%;
+ 
+  .container-logos {
+    margin-top: 100px; 
+    width: 90%; // Ocupa el 100% del ancho disponible
+    max-width: 500px; // Limita el ancho máximo en pantallas grandes 
+    padding: 1px;  
+  }
+
+  .container-form {
+    width: 100%; // Ocupa el 100% del ancho disponible
+    max-width: 500px; // Limita el ancho máximo en pantallas grandes
+    background-color: $background-light;
+    padding: 20px;
+    border: 1px solid $border-grey;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .change-form {
+    width: 100%; // Ocupa el 100% del ancho disponible
+    max-width: 400px; // Limita el ancho máximo en pantallas grandes
+    background-color: $background-light;
+    padding: 20px;
+    border: 1px solid $border-grey;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    span {
+      color: $action;
+      font-weight: bold;
+      margin-left: 5px;
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
     }
-
-    .container-form{
-        width: 400px;
-        background-color: $background-light;
-        padding: 20px 50px;
-        border: 1px solid $border-grey;
-        margin-top: 15px;
-        border-radius: 5px;
-    }
-
-    .change-form{
-        margin-top: 10px;
-        width: 400px;
-        background-color: $background-light;
-        padding: 20px 50px;
-        border: 1px solid $border-grey;
-        text-align: center;
-        border-radius: 5px;
-
-        span{
-            color: $action;
-            font-weight: bold;
-            margin-left: 5px;
-            &:hover{
-                cursor: pointer;
-                text-decoration: underline;
-            }
-        }
-    }
+  }
 }
