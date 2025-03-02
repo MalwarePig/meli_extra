@@ -5,7 +5,7 @@ import User from "./pages/User";
 
 export default function App() {
   const login = false;
-  return <> 
+  return <div className="app-container"> 
   {login ? <Auth /> : <Navigation/>}
-  </>;
+  </div>;
 }

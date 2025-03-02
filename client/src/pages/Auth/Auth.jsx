@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { Container } from "semantic-ui-react";
 import LoginForm from "../../components/Login/LoginForm/LoginForm";
 import RegisterForm from "../../components/Login/RegisterForm/RegisterForm";
@@ -6,12 +6,14 @@ import Logo from "../../components/Logo/Logo";
 import "./Auth.scss";
 
 export default function Auth() {
-  const showLogin = false;
+  const [showLogin ,setShowLogin] = useState(true)
+
 
   return (
     <Container className="auth">
+
       <Container className="container-logos">
-       <Logo />
+        <Logo />
       </Container>  
 
       <Container className="container-form">

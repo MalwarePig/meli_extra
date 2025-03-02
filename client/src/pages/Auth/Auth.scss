@@ -1,17 +1,17 @@
 @import "../../index.scss";
 
 .auth {
+  
   display: flex !important;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: $background-grey-light;
-
  
   .container-logos {
     margin-top: 100px; 
     width: 90%; // Ocupa el 100% del ancho disponible
-    max-width: 500px; // Limita el ancho máximo en pantallas grandes 
+    max-width: 80%; // Limita el ancho máximo en pantallas grandes 
     padding: 1px;  
   }
 
@@ -34,6 +34,8 @@
     text-align: center;
     border-radius: 5px;
     margin-top: 10px;
+
+    margin-bottom: 10px;
 
     span {
       color: $action;
