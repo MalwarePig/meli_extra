@@ -8,12 +8,11 @@ import {
   Checkbox,
   Button,
 } from "semantic-ui-react";
-import "./RegisterForm.scss";
+
 
 export default function RegisterForm() {
-  return (
-    <>
-      <h5>Fila Virtual praa confirmación de llegada a SVC</h5>
+  return ( 
+     
       <Form>
         <FormField>
           <label>ID de Conductor </label>
@@ -64,7 +63,6 @@ export default function RegisterForm() {
           <input placeholder="Tipo?"></input>
         </FormGroup>
         <Button type='submit'>Guardar</Button>
-      </Form>
-    </>
+      </Form> 
   );
 }

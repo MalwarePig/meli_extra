@@ -1,14 +1,42 @@
 @import "../../../scss/index.scss";
 
-.register-form{ 
-    input{
-        padding: 10px 10px !important;
-        background-color: #f9f9f9 !important;
+.register-form {
+  width: 100%;
+  max-width: 400px; // Limita el ancho máximo del formulario
+  margin-top: 20px;
+  padding: 20px;
+  background-color: $background-light; // O el color que estés usando
+  border: 1px solid $border-grey;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); // Estilo de sombra para el formulario
+
+  input {
+    width: 100%; // Asegura que los inputs ocupen todo el ancho disponible
+    padding: 10px 10px;
+    background-color: #f9f9f9; // Color de fondo para los inputs
+    border: 1px solid $border-grey; // Bordes con color neutro
+    border-radius: 5px; // Bordes redondeados
+    margin-bottom: 15px; // Espacio entre los inputs
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: $action; // El color de fondo para el botón
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.9; // Cambio de opacidad al hacer hover
     }
+  }
 }
 
-.register-form-tittle{
-    font-size: 17px !important;
-    text-align: center;
-    margin-bottom: 20px;
+.register-form-tittle {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 20px;
 }

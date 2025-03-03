@@ -1,15 +1,13 @@
 @import "../../index.scss";
 
 .auth {
-  
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: $background-grey-light;
+  flex: 1; /* Hace que el contenido ocupe el espacio restante */
+  padding: 20px;
+  overflow-y: auto; /* Permite el scroll si el contenido excede la altura */
+  max-height: 100vh; /* Evita que el contenido se salga de la pantalla */
  
   .container-logos {
-    margin-top: 100px; 
+    margin-top: 50px; 
     width: 90%; // Ocupa el 100% del ancho disponible
     max-width: 80%; // Limita el ancho máximo en pantallas grandes 
     padding: 1px;  
